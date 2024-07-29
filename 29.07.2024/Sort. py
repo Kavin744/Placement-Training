@@ -1,0 +1,2 @@
+n={'name':'vicky','age':62,'RollNo':914}  
+print(n)
