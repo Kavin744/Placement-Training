@@ -1,0 +1,8 @@
+a=input("Enter the string : ")
+j=0
+v=["a","e","i","o","u","A","E","I","O","U"]
+for i in range(len(a)):
+    if a[i] in v:
+        j+=1
+print("Vowels :",j)
+print("Consonents :",len(a)-j)
